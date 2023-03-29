@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Currículo</title>
+    
+</head>
+<body>
+<div>
+
+    <!--   Sistema de Navegação   -->
+    
+        <nav>
+            <ul><a href="#" id="NavHome" onclick="window.location = '../../index.html';">Home</a></ul>
+            <ul><a href="#" id="NavLogin">Sistema de Cadastro</a></ul>
+            <ul><a href='#' id="UsersPag" onclick="window.location= '../../Usuários';">Usuários</a></href></ul>
+         </nav>
+    <!--                          -->
+    <!--      Sitema de Login        -->
+        <div >
+        <form>  
+        <div class="BoxLogin">
+                   <!--Mensagens de Alert--> 
+                    
+
+                    <!--                 -->  
+            
+                <div id="LoginControl">
+                        
+                        <label for="UserName" id="text">CPF</label>
+                        <input type="text"  id="NameBox" autocomplete="off"><br>
+                    
+                        <label for="Phone" id="text">Telefone</label>
+                        <input type="text"  onkeyup="handlePhone(event)" id="PhoneBox" placeholder="Ex: (00) 00000-0000" autocomplete="off" maxlength="15"><br>
+
+                        <label for="Email" id="text">Email</label>
+                        <input type="text" id="EmailBox"  autocomplete="off"> 
+                <div class="BtSt"><input type="button" id="ButtonBox" value="Cadastrar" onclick="CadastrarUsuario()">
+                        <!--Sistema de Registro-->
+                        
+                    </div>
+                </div>
+
+            
+        </div>
+                        <!--Informações Box Login-->
+           
+              
+        </form>
+        
+        </div>
+    <!--                           -->
+    
+</div>
+</body>
+<script src="./scripts.js"></script>
+</html>

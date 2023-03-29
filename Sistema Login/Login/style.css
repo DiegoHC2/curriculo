@@ -1,0 +1,129 @@
+html {
+    height: 100vh;
+}
+
+
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(#fff 70%, rgb(214, 214, 214));
+    padding: 0px;
+    margin: 0px;
+    
+}
+a{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif
+    
+
+}
+
+nav {
+    
+    background: linear-gradient( 45deg, rgb(19, 18, 18),rgb(90, 88, 88));
+    display: flex;
+    padding: 2px;
+    border-bottom:  3px solid #626862;
+    
+}
+
+nav ul{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 20px;
+    
+}
+
+
+nav ul a{
+    color:  #c9cec9;
+    text-decoration: none;
+    padding: 15px;
+    transition: 0s;
+    border: none;
+}
+
+a:hover {
+    transition: 1s;
+    
+    color: rgb(255, 255, 255);
+    
+    
+}
+
+#NavLogin{
+    color: #fff   ;
+    
+}
+
+@font-face {
+    font-family: 'Bebas';
+    src: url('../Login/BebasNeue-Regular.ttf')
+
+}
+
+form {
+    background-image: linear-gradient( 45deg, rgb(61, 61, 230, 0.5), rgb(248, 110, 110, 0.5));
+    font-family:'Bebas', Times, serif;
+    font-size:x-large;
+    display: block;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vh;
+    border-radius: 20px;
+    box-shadow: 5px 5px 12px black;
+}
+
+.BoxLogin{
+    display: block;
+    padding: 40px 0px 1px;
+    text-align: center;
+    width: auto;
+    opacity: 1;
+    
+}
+input{
+    border-radius: 8px;
+    border-color: rgb(0, 0, 0);
+}
+
+
+#LoginControl {
+    display: grid;
+    padding: 50px 30%;
+}
+
+#text {
+    color: #fff;
+    text-shadow: 2px 1px black;
+    margin-bottom: 5%;
+    text-transform: uppercase;
+
+    
+    
+}
+
+
+
+
+
+
+#ButtonBox {
+    background-color: #fff;
+    margin-top:  20px;
+    border-radius: 115px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-color: rgb(126, 126, 236);
+}
+
+#ButtonBox:hover {
+    transition: 0.3s;
+    background-color: #abb1ab;
+}
+
+
